@@ -2,4 +2,4 @@
 <br>
 
 ### ✔ django
-- static
+- [static](https://github.com/heejung-gjt/TIL/blob/master/static.md)
