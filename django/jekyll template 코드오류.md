@@ -1,5 +1,4 @@
 
-### django static 설정해 css 사용하기 
 ### jekyll에서 Django template 코드 작성하기
 
 #### ⚡삽질 기록    
