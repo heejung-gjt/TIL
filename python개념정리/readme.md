@@ -21,7 +21,7 @@
 - String Validator 이용한 문자열 문제    
 <br>
 
-### [day5]()
+### [day5](https://github.com/heejung-gjt/TIL/blob/master/python%EA%B0%9C%EB%85%90%EC%A0%95%EB%A6%AC/day5%20-%20%EC%A1%B0%EA%B1%B4%EB%AC%B8%2C%20%EB%B0%98%EB%B3%B5%EB%AC%B8%20.ipynb)
 - 삼항연산자    
 - Conditional Statement와 Conditional Expression    
 - for, while 문 이용한 예제    
