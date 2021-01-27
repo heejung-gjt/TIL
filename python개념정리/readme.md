@@ -25,4 +25,11 @@
 - 삼항연산자    
 - Conditional Statement와 Conditional Expression    
 - for, while 문 이용한 예제    
+<br>
 
+### [day6](https://github.com/heejung-gjt/TIL/blob/master/python%EA%B0%9C%EB%85%90%EC%A0%95%EB%A6%AC/day6%20-%20args%2Ckwargs%2C%EC%9D%B4%EB%8B%88%EC%85%9C%EB%9D%BC%EC%9D%B4%EC%A0%80.md)
+- Parameter(파라미터)   
+- Argument(전달인자)   
+- 이니셜라이저   
+- *args   
+- **kwargs    
