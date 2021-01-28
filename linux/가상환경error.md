@@ -16,7 +16,7 @@ vi .bashrc
 ✔ 그다음 변경했던 내용을 수정해주면되는데 이때 변경을 했음에도 똑같은 error가 발생하였다. 
 그래서 아예 아래의 코드를 작성하여 넣은 후 저장해주었다
 ```bash
-export PATH = '\bin\usr\bin\usr\local\bin:\sbin:\usr\sbin'
+export PATH = '\bin:\usr\bin\usr\local\bin:\sbin:\usr\sbin'
 ```
 ✔ 그 뒤 변경된 내용을 적용하기 위해서 source ~ /.bashrc를 실행해주었더니 error가 해결되었다   
 
