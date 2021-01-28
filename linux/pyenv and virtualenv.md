@@ -1,7 +1,7 @@
 ### 우분투에 가상환경 설치하기
 <br>
 
-[👉 우분투 가상환경 설치시 발생했던 오류정리]()
+[👉 우분투 가상환경 설치시 발생했던 오류정리](https://github.com/heejung-gjt/TIL/blob/master/linux/%EA%B0%80%EC%83%81%ED%99%98%EA%B2%BDerror.md)
 <br>
 
 #### ✔ Ubuntu 20.04.1 LTS에서 pyenv와 virtualenv설치
