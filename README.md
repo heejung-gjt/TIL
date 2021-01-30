@@ -13,7 +13,10 @@
 - [git_undo](https://github.com/heejung-gjt/TIL/blob/master/git/git_undo.md)   
 - [contribution 그래프 update](https://github.com/heejung-gjt/TIL/blob/master/git/local_commit.md)   
 - [git 사용시 자주 발생하는 error](https://github.com/heejung-gjt/TIL/blob/master/git/%EC%98%A4%EB%A5%98%EC%A0%95%EB%A6%AC.md)
-
+- [git init 대신 clone 사용하기](https://github.com/heejung-gjt/TIL/blob/master/git/git_create.md)
+- [git branch로 checkout, merge하기](https://github.com/heejung-gjt/TIL/blob/master/git/git_branch.md)
+- [git flow이용해서 merge하기](https://github.com/heejung-gjt/TIL/blob/master/git/git_flow.md)
+- [Fork and Merge로 실습해보기](https://github.com/heejung-gjt/TIL/blob/master/git/git_collaborate.md)
 <br>
 
 ### ✔ python
