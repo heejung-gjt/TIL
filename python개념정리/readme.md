@@ -33,3 +33,8 @@
 - 이니셜라이저   
 - *args   
 - **kwargs    
+<br>
+
+### [day7](https://github.com/heejung-gjt/TIL/blob/master/python%EA%B0%9C%EB%85%90%EC%A0%95%EB%A6%AC/day7%20-%20list_comprehension.md)
+- List Comprehension     
+- Dictionary Comprehension         
