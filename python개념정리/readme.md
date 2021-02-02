@@ -38,3 +38,11 @@
 ### [day7](https://github.com/heejung-gjt/TIL/blob/master/python%EA%B0%9C%EB%85%90%EC%A0%95%EB%A6%AC/day7%20-%20list_comprehension.md)
 - List Comprehension     
 - Dictionary Comprehension         
+<br>
+
+### [day8](https://github.com/heejung-gjt/TIL/blob/master/python%EA%B0%9C%EB%85%90%EC%A0%95%EB%A6%AC/day8%20-%20fileIO.md)
+- file 기본 I/O   
+- with 사용한 I/O   
+- readline()과 readlines()    
+- get() 함수를 이용한 I/O    
+- setdefault()함수를 이용한 I/O    
