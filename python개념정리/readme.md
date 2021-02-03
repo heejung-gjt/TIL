@@ -46,3 +46,24 @@
 - readline()과 readlines()    
 - get() 함수를 이용한 I/O    
 - setdefault()함수를 이용한 I/O    
+
+<br>
+
+### [day9](https://github.com/heejung-gjt/TIL/blob/master/python%EA%B0%9C%EB%85%90%EC%A0%95%EB%A6%AC/day9%20-%20regular%20expression.md)
+- Meta Characters      
+- 자주 사용되는 문자 클래스    
+- match()    
+
+<br>
+
+### [day10](https://github.com/heejung-gjt/TIL/blob/master/python%EA%B0%9C%EB%85%90%EC%A0%95%EB%A6%AC/day10%20-%20lambda.md)
+- lambda 기본 정의
+- lambda 함수 map()과 함께 쓰기     
+- lambda 실습     
+<br>    
+
+### [day11](https://github.com/heejung-gjt/TIL/blob/master/python%EA%B0%9C%EB%85%90%EC%A0%95%EB%A6%AC/day11%20-%20csv.md)
+- csv 정의
+- json 정의 
+- csv -> json 인코딩     
+- json -> csv 디코딩         
