@@ -72,3 +72,22 @@
 ### [day12](https://github.com/heejung-gjt/TIL/blob/master/python%EA%B0%9C%EB%85%90%EC%A0%95%EB%A6%AC/day12%20-%20recursive.md)
 - 재귀함수       
 - 재귀함수 실습      
+<br>
+
+### [day13 part1](https://github.com/heejung-gjt/TIL/blob/master/python%EA%B0%9C%EB%85%90%EC%A0%95%EB%A6%AC/day13%20-%20oop%20part1.md)
+- 객체지향 프로그래밍이란   
+- 객체지향 프로그래밍 특징   
+- SOLID    
+- 객체지향 언어 장점   
+- 객체지향 언어 단점   
+- Class    
+- Class 정의    
+<br>
+
+### [day13 part2](https://github.com/heejung-gjt/TIL/blob/master/python%EA%B0%9C%EB%85%90%EC%A0%95%EB%A6%AC/day13%20-%20oop%20part2.md)
+- 클래스 변수와 인스턴스변수     
+- 클래스 변수의 버그     
+- Call by object Reference    
+- 정보은닉    
+- 접근제어 지시자    
+
