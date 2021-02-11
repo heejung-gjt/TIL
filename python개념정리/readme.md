@@ -90,4 +90,11 @@
 - Call by object Reference    
 - 정보은닉    
 - 접근제어 지시자    
+<br>
 
+### [day13 part3](https://github.com/heejung-gjt/TIL/blob/master/python%EA%B0%9C%EB%85%90%EC%A0%95%EB%A6%AC/day13%20-%20oop%20part3.md)
+- Inheritance     
+- 클래스 변수의 버그     
+- Override          
+- IS-A : 상속      
+- HAS-A : Composition(합성), Aggregation(통합)     
