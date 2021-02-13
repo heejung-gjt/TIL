@@ -219,6 +219,15 @@ for item in apples:  # match되는 문자열 찾기
     m = apple_finder.match(item)
     print(item, m)
 ```
+
+__re.group()__    
+group()은 해당 그룹에 매칭된 문자열을 반환한다.
+```python
+>>> m = re.match('([0-9]+) ([0-9]+)', '1 5')
+>>> m.group(1)    # 첫 번째 그룹(그룹 1)에 매칭된 문자열을 반환
+'1'
+```
+
 <br>
 
 #### gmail의 username 만드는 규칙 
@@ -227,4 +236,115 @@ A-Z ,a-z, 0-9, -, + 의 문자열이 4개이상 32개 이하로 조합되서 use
 ```python
 r'[A-Za-z0-9\-\+]{4,32}@gmail\.com
 ```
+<br>
 
+#### ✔ findall()과 finditer()
+
+1. findall()은 주어진 string 전체에서 pattern과 일치하는 것을 모두 찾아서 list로 반환한다     
+```re.findall(r'패턴문자열','문자열')```   
+
+```python
+import re
+
+result_list = re.findall(r"([A-Z]*)@([1-9]*)","SON@1234.&&")
+print(result_list)
+
+"""
+결과 :
+
+[('SON', '1234')]
+"""
+```
+2.  finditer()은 findall()과 같은 기능을 하지만 결과물로 리스트를 반환하는 것이아니라 이터레이터를 반환하기 때문에 for 문을 사용해 원소값을 하나 하나 꺼내야한다    
+
+```re.finditer(r'패턴문자열','문자열')```   
+
+```python
+import re
+
+l_m = re.finditer(r'\d{3}-\d{4}-\d{4}', 'kwon 010-3333-4444 lee 010-5555-6666')
+for m in l_m:
+    print(m.group())   
+"""
+결과 :
+
+010-3333-4444
+010-5555-6666
+
+```
+3. re.I 옵션은 대소문자 구별없이 매치를 수행할때 사용한다
+<br>
+
+#### ✔ 조건이 있는 표현식    
+
+#### 1.표현1(?=표현2) : 표현1 뒤에 문자열이 표현2와 매치되면 표현1 매치     
+```EX) hi(?=friend) : hi 뒤에 문자열이 friend와 매치되면 매치```
+
+##### ex)
+```python
+import re
+
+
+string = input()
+print(re.match('hi(?=friend)',string)) # hi 뒤에 friend 문자열이 있기때문에 hi가 매치된다
+
+"""
+결과 :
+
+hifriend
+<re.Match object; span=(0, 2), match='hi'>
+"""
+```
+<br>
+
+#### 2.표현1(?!표현2) : 표현1 뒤에 문자열이 표현2와 매치되지 않으면 표현1 매치     
+```EX) hi(?!friend) : hi 뒤에 문자열이 friend와 매치되지 않으면 매치```
+
+##### ex)
+```python
+import re
+
+
+string = input()
+print(re.match('hi(?!friend)',string)) # hi 뒤에 friend 문자열이 있기때문에 hi가 매치되지 않는다
+
+"""
+결과 :
+
+hifriend
+None
+"""
+```
+<br>
+
+#### 3.(?<=표현1)표현2 : 표현2앞의 문자열이 표현1과 매치되면 표현2 매치     
+```EX) (?<=hi)friend : friend 앞에 hi가 있으면 friend를 매치```
+
+##### ex)
+```python
+import re
+
+
+string = input()
+print(re.match('(?<=hi)(friend)',string)) 
+```
+<br>
+
+#### 4.(?<!표현1)표현2 : 표현2 앞의 문자열이 표현1과 매치되지 않으면 표현2 매치     
+```EX) (?<!hi)friend : friend 앞에 문자열이 hi와 매치되지 않으면 매치```
+
+##### ex)
+```python
+import re
+
+
+string = input()
+print(re.match('(?<!hi)friend',string)) 
+
+```
+<br>
+
+#### ✔ re.sub()
+문자열을 바꿀 때는 sub 함수를 사용한다.```re.sub('패턴', '바꿀문자열', '문자열', 바꿀횟수)```    
+
+패턴, 바꿀 문자열, 문자열, 바꿀 횟수를 넣어준다. 여기서 바꿀 횟수를 넣으면 지정된 횟수만큼 바꾸어준다. 바꿀 횟수를 생략하면 찾은 문자열을 모두 바꾸어준다  
