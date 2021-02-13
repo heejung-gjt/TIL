@@ -21,9 +21,9 @@
 
 ### ✔ python
 - [dictionary](https://github.com/heejung-gjt/TIL/blob/master/python/dic.md)    
-- [method 정리](https://github.com/heejung-gjt/TIL/blob/master/python/%ED%95%A8%EC%88%98%EC%A0%95%EB%A6%AC.md)    
-- [문자열 옵션 정리](https://github.com/heejung-gjt/TIL/blob/master/python/%EB%AC%B8%EC%9E%90%EC%97%B4%20%EC%98%B5%EC%85%98.md)
-
+- [method 정리](https://github.com/heejung-gjt/TIL/blob/master/python/%ED%95%A8%EC%88%98%EC%A0%95%EB%A6%AC.md)      
+- [문자열 옵션 정리](https://github.com/heejung-gjt/TIL/blob/master/python/%EB%AC%B8%EC%9E%90%EC%97%B4%20%EC%98%B5%EC%85%98.md)     
+- [진수변환 정리](https://github.com/heejung-gjt/TIL/blob/master/python/%EC%A7%84%EC%88%98%EB%B3%80%ED%99%98.md)
 
 <br>
 
