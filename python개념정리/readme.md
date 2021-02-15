@@ -85,7 +85,7 @@
 - Class 정의    
 <br>
 
-### [day13 part2](https://github.com/heejung-gjt/TIL/blob/master/python%EA%B0%9C%EB%85%90%EC%A0%95%EB%A6%AC/day13%20-%20oop%20part2.md)
+### [day14 part2](https://github.com/heejung-gjt/TIL/blob/master/python%EA%B0%9C%EB%85%90%EC%A0%95%EB%A6%AC/day13%20-%20oop%20part2.md)
 - 클래스 변수와 인스턴스변수     
 - 클래스 변수의 버그     
 - Call by object Reference    
@@ -93,7 +93,7 @@
 - 접근제어 지시자    
 <br>
 
-### [day13 part3](https://github.com/heejung-gjt/TIL/blob/master/python%EA%B0%9C%EB%85%90%EC%A0%95%EB%A6%AC/day13%20-%20oop%20part3.md)
+### [day15 part3](https://github.com/heejung-gjt/TIL/blob/master/python%EA%B0%9C%EB%85%90%EC%A0%95%EB%A6%AC/day13%20-%20oop%20part3.md)
 - Inheritance     
 - 클래스 변수의 버그     
 - Override          
@@ -101,14 +101,14 @@
 - HAS-A : Composition(합성), Aggregation(통합)     
 <br>
 
-### [day14 part4](https://github.com/heejung-gjt/TIL/blob/master/python%EA%B0%9C%EB%85%90%EC%A0%95%EB%A6%AC/day14%20-%20oop%20part4.md)
+### [day16 part4](https://github.com/heejung-gjt/TIL/blob/master/python%EA%B0%9C%EB%85%90%EC%A0%95%EB%A6%AC/day14%20-%20oop%20part4.md)
 - class method         
 - static method         
 - Abstract Base class             
 - Polymorphism          
 <br>
 
-### [day15 decorator](https://github.com/heejung-gjt/TIL/blob/master/python%EA%B0%9C%EB%85%90%EC%A0%95%EB%A6%AC/day15%20-%20decorator.md)
+### [day17 decorator](https://github.com/heejung-gjt/TIL/blob/master/python%EA%B0%9C%EB%85%90%EC%A0%95%EB%A6%AC/day15%20-%20decorator.md)
 - decorator 구조            
 - decorator 실습1~4             
 - memoize           
