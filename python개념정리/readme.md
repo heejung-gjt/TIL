@@ -99,3 +99,17 @@
 - Override          
 - IS-A : 상속      
 - HAS-A : Composition(합성), Aggregation(통합)     
+<br>
+
+### [day14 part4](https://github.com/heejung-gjt/TIL/blob/master/python%EA%B0%9C%EB%85%90%EC%A0%95%EB%A6%AC/day14%20-%20oop%20part4.md)
+- class method         
+- static method         
+- Abstract Base class             
+- Polymorphism          
+<br>
+
+### [day15 decorator](https://github.com/heejung-gjt/TIL/blob/master/python%EA%B0%9C%EB%85%90%EC%A0%95%EB%A6%AC/day15%20-%20decorator.md)
+- decorator 구조            
+- decorator 실습1~4             
+- memoize           
+    
