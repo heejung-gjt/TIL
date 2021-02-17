@@ -114,7 +114,7 @@
 - memoize           
 <br>
 
-### [day18 module과 package(https://github.com/heejung-gjt/TIL/blob/master/python%EA%B0%9C%EB%85%90%EC%A0%95%EB%A6%AC/day18%20-%20module%2Cpackage.md)
+### [day18 module과 package](https://github.com/heejung-gjt/TIL/blob/master/python%EA%B0%9C%EB%85%90%EC%A0%95%EB%A6%AC/day18%20-%20module%2Cpackage.md)
 - module 정의, 실습       
 - package 정의, 실습                 
 
