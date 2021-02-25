@@ -28,7 +28,7 @@
 <br>
 
 ### ✔ html-css   
-- [0222 내용정리](https://github.com/heejung-gjt/TIL/blob/master/html_css/0222-html%EC%A0%95%EB%A6%AC.md) [ html기호, float, 단축키]
+- [HTML 과 CSS를 공부하면서 정리한 내용들 입니다](https://github.com/heejung-gjt/TIL/tree/master/html_css)    
 
 <br>
 
