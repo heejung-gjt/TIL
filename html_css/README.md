@@ -5,11 +5,15 @@
 <br>
 
 ### [0222](https://github.com/heejung-gjt/TIL/blob/master/html_css/0222-html%EC%A0%95%EB%A6%AC.md)    
-- 마크업 짜는 순서 ( 마크업의 논리성 -> 시멘틱 마크업 -> 네이밍)   
-- css 스타일링 순서 (css 설계 -> padding,margin 구체적으로 설계해주기 -> 구현)    
-- html 마크업 기호       
-- css 단위 (vh,vw)      
-- float와 overflow       
+
+- DOCTYPE(DTD)    
+- HTML/CSS 코드 작성 규칙    
+- HTML/CSS 설계과정    
+- HTML 작성시 기호 사용해서 구현   
+- CSS 사이즈 단위 (px, em, rem, vh, vw)   
+- SEO(검색엔진 최적화)   
+- 웹 접근성   
+- float 속성 정리    
 - 단축키       
 
 <br>
