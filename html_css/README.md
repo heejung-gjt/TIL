@@ -15,20 +15,18 @@
 - 웹 접근성   
 - float 속성 정리    
 - 단축키       
-
+- 이중 float 씌어서 박스 위치 변경하기(예정)    
 <br>
 
 
  ### [0223](https://github.com/heejung-gjt/TIL/blob/master/html_css/0223-html%EC%A0%95%EB%A6%AC.md)
-- flex    
+- BFC      
+- 가상요소 선택자 (::after, ::before)   
+- flex 속성   
+- logo와 a링크 style 구현하기 (float로 구현해보기, flex로 구현해보기)(float 예정)       
+- display (inline, block, inline-block)    
 - position (absolute, relative)       
-- display (inline, block, inline-block)   
-- 웹표준, 웹접근성   
-- BFC찾기    
-- padding, margin 주는 방법   
-- float와 overflow, 가상선택자 이용해서 박스 배치하기    
-- 이중 float 씌어서 박스 위치 변경하기    
-- logo와 a링크 style 구현하기 (float로 구현해보기, flex로 구현해보기)         
+
 <br>
 
  ### [0224](https://github.com/heejung-gjt/TIL/blob/master/html_css/0224-html%EC%A0%95%EB%A6%AC.md)
