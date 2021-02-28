@@ -31,23 +31,19 @@
 <br>
 
  ### [0224](https://github.com/heejung-gjt/TIL/blob/master/html_css/0224-html%EC%A0%95%EB%A6%AC.md)
-- nav float로 구현해보기        
-- a링크 button 처럼 구현 가능 ?          
-- box-shadow와 text-shadow 사용법      
-- border의 역할 box-shadow로도 대체 가능    
+- role의 역할(a링크를 button처럼 쓸 수 있을까 ?)         
+- box-shadow와 text-shadow          
 - white-space의 역할        
 - 애니메이션 @keyframes       
 - after과 before로 배경이미지 교차 편집하기       
-- 스타일 초기화 - 공용 모듈 만들어 제어해주기        
-- 웹표준을 위한 h1,h2.. 마크업 - 해당 내용 숨기기 top : -9999px    
-- margin : -1px 음수값 의미는 ?    
-- position은 마크업에 영향을 받는다    
+- 배경이미지와 태그이미지 (이미지 배치 순서)        
+- 웹 표준을 위한 마크업 - 숨김콘텐츠         
 - hover와 focus    
-- outline : 0 의미는 ?    
-- 배경 동작 : 이미지를 나중에 선언할때마다 밑으로 깔린다   
-- 레이어 동작 : 이미지를 나중에 선언할때마다 위로 깔린다    
-- 배경/레이어 동작 제어 : z-index    
-- animation의 속성들     
+- padding,margin 부여되는 값 순서    
+- line-height    
+- 암묵적 outline과 명시적 outline    
+- block속성으로 생기는 스크롤바      
+- nav float로 구현해보기        
 <br>
 
 ### [0225](https://github.com/heejung-gjt/TIL/blob/master/html_css/0225-html%EC%A0%95%EB%A6%AC.md)
