@@ -23,10 +23,11 @@
 - BFC      
 - 가상요소 선택자 (::after, ::before)   
 - flex 속성   
-- logo와 a링크 style 구현하기 (float로 구현해보기, flex로 구현해보기)(float 예정)       
+- logo와 a링크 style 구현하기 (flex로 구현해보기,inline-block으로 구현해보기)         
 - display (inline, block, inline-block)    
-- position (absolute, relative)       
-
+- aria-hidden의 역할    
+- position (absolute, relative)        
+- FLEXBOX FROGGY GAME 으로 flex 연습하기    
 <br>
 
  ### [0224](https://github.com/heejung-gjt/TIL/blob/master/html_css/0224-html%EC%A0%95%EB%A6%AC.md)
