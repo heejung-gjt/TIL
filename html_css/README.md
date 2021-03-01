@@ -65,25 +65,20 @@
 <br>
 
 ### [0226]()
-- dl에서 div 사용하는 방법( div안에는 dt,dd가 들어가 있어야 한다)       
-- 구조를 명시한다 (ex- div >li)    
-- inline 상자는 항상 base,top갭이 존재한다    
-- text-align과 vertical align의 차이점(vertical 의 middle)    
-- text-align:justify의 역할(권장하지는 않음 왜 ?)    
+- dl,dt,dd의 사용           
+- css >의 의미    
+- text-align과 vertical align의 차이점     
+- margin:auto는 가능, padding:auto는 불가능 (margin:auto의 역할)    
+- 이미지 해상도 조절하지 않고 쓸 수 있는 SVG    
+- flex-grow:1이 쓰이는 곳은 ?     
+- text-overflow 역할 (라인 말줄임을 위한 3가지 속성)    
+- HTML/CSS 실습     
 - 자료검색창 마크업해보기 (form요소 이용해서 구현)     
 - 자료검색창 스타일링해보기(flex 이용해서 구현)    
-- 요소선택자를 직접 건드리는 것보단 class 네이밍을 해서 스타일링 하는것을 선호   
-- input에서의 name 역할   
-- border-bottom-color : transparent ( transparent 의 역할)    
-- flex 사용시 before와 after사용을 주의해야 하는 이유(해결방법은 nth-child)      
-- margin:auto는 가능, padding:auto는 불가능 (margin:auto의 역할)    
 - 게시판(공지사항) 마크업하기 (마크업 설계부터 시작하기 1안~3안)   
 - 게시판(공지사항) 스타일링하기 (float/positon이용해서 공지사항,자료실 더보기 태그 옮겨준다. ul태그는 flex로 구현)          
-- 이미지 해상도 조절하지 않고 쓸 수 있는 SVG    
-- flex-grow:1이 쓰이는 곳은 ? 
-- text-overflow 역할 (라인 말줄임을 위한 3가지 속성)    
-
-
+- 요소선택자를 직접 건드리는 것보단 class 네이밍을 해서 스타일링 하는것을 선호     
+- flex 사용시 before와 after사용을 주의해야 하는 이유(해결방법은 nth-child)   
 
 
 
