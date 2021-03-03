@@ -43,7 +43,8 @@
 - line-height    
 - 암묵적 outline과 명시적 outline    
 - block속성으로 생기는 스크롤바      
-- HTML/CSS 실습    
+
+#### [HTML/CSS 실습]    
 - 메인메뉴 구현해보기(float, flex)        
 - 애니메이션으로 배경 구현해보기     
 <br>
@@ -58,7 +59,7 @@
 - text-indent 들여쓰기, 음수값으로 내어쓰기 속성   
 - background: url(./~) 와 background-image:url(./~) 차이 정확하게 구분하기   
 
-- HTML/CSS 실습     
+#### [HTML/CSS 실습]    
 - 배경이미지 넣어 배너 레이아웃 설계해보기      
 - 로그인 설계해보기(float와 flex 각각 이용해보기)   
 - 유효성 검사 배너 설계해보기   
@@ -76,7 +77,7 @@
 - 요소선택자를 직접 건드리는 것보단 class 네이밍을 해서 스타일링 하는것을 선호     
 - flex 사용시 before와 after사용을 주의해야 하는 이유(해결방법은 nth-child)   
 
-- HTML/CSS 실습     
+#### [HTML/CSS 실습]    
 - 자료검색창 마크업해보기 (form요소 이용해서 구현)     
 - 자료검색창 스타일링해보기(flex 이용해서 구현)    
 - 게시판(공지사항) 마크업하기 (마크업 설계부터 시작하기 1안~3안)   
@@ -102,7 +103,7 @@
 - alt와 title의 작성   
 - aria-label과 a11y-hidden의 사용      
 
-- HTML/CSS 실습    
+#### [HTML/CSS 실습]    
 - [뉴스 컨텐츠 실습 (position으로 레이아웃 배치,figure이용하기, 마크업 변경후 float와 flex 이용해보기)](https://github.com/heejung-gjt/HTML5-CSS3/tree/master/%EC%9B%B9%EC%82%AC%EC%9D%B4%ED%8A%B8%20%EA%B5%AC%ED%98%84/%EC%83%88%EC%86%8C%EC%8B%9D%20%EB%A7%88%ED%81%AC%EC%97%85%20%EB%B0%8F%20%EB%94%94%EC%9E%90%EC%9D%B8)       
 - [신규 이벤트 컨텐츠 실습 (IR기법이용하기, sprite 패턴 이용하기)](https://github.com/heejung-gjt/HTML5-CSS3/tree/master/%EC%9B%B9%EC%82%AC%EC%9D%B4%ED%8A%B8%20%EA%B5%AC%ED%98%84/%EC%8B%A0%EA%B7%9C%20%EC%9D%B4%EB%B2%A4%ED%8A%B8%20%EB%B0%8F%20%EA%B4%80%EB%A0%A8%20%EC%82%AC%EC%9D%B4%ED%8A%B8%20%EB%A7%88%ED%81%AC%EC%97%85%20%EB%B0%8F%20%EB%94%94%EC%9E%90%EC%9D%B8)    
 
@@ -123,7 +124,7 @@
 - noopener, noreferer 속성    
 - Grid    
 
-- HTML/CSS 실습     
+#### [HTML/CSS 실습]    
 - 관련사이트 컨텐츠 구현하기 (overflow:hidden과 hover 이용하기)    
 - 인기사이트 컨텐츠 구현하기(sprite 패턴 이용하기, 가상요소 선택자 이용해 순위 구현하기, ol 이용하기)    
 - 슬로건 구현하기(q태그 이용하기, IR기법 이용하기)   
