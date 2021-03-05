@@ -127,7 +127,29 @@
 - 인기사이트 컨텐츠 구현하기(sprite 패턴 이용하기, 가상요소 선택자 이용해 순위 구현하기, ol 이용하기)    
 - 슬로건 구현하기(q태그 이용하기, IR기법 이용하기)   
 - grid로 footer 구현하기   
+<br>
 
+### [0304]()   
+
+- Open Graph와 Twitter Card   
+- RWD와 AWD        
+- RWD에서의 사이즈(em,rem,vw,vh)       
+- 속성값이 0일때 단위생략 가능할까 ?   
+- box-shadow를 이용해서 outline 커스터마이징하기    
+- indent 트릭   
+- left,top의 px과 %의 이동   
+- 인용부호 q, blockquote   
+- a링크의 역할 [웹주소, 이메일, 전화]    
+- 벡터와 비트맵의 차이    
+- noopener, noreferer 속성    
+- Grid    
+
+#### [HTML/CSS 실습]    
+- 관련사이트 컨텐츠 구현하기 (overflow:hidden과 hover 이용하기)    
+- 인기사이트 컨텐츠 구현하기(sprite 패턴 이용하기, 가상요소 선택자 이용해 순위 구현하기, ol 이용하기)    
+- 슬로건 구현하기(q태그 이용하기, IR기법 이용하기)   
+- grid로 footer 구현하기   
+<br>
 
 
 
