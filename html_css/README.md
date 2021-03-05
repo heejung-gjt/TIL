@@ -86,22 +86,20 @@
 
 <br>
 
-### [0302]()
+### [0302](https://github.com/heejung-gjt/TIL/blob/master/html_css/0302-html%EC%A0%95%EB%A6%AC.md)
 
-- figure와 figcaption (alt의 생략)       
-- title과 aria-labelledby    
-- css사용시 global 속성 지정(:root)        
-- img를 span이나 div안에 묶어서 지정해 주는 이유   
-- 웹 렌더링 순서와 과정   
-- hsla() 함수     
-- reset.css와 normalize css 차이점    
+- figure와 figcaption         
+- aria-label과 aria-labelledby      
+- aria-hidden       
+- alt와 title    
+- strong,em 태그     
+- img를 span이나 div안에 지정해 주는 이유는 ?     
+- Image Sprite Pattern   
 - IR기법   
-- aria-label 이용하는 이유   
-- sprite pattern    
 - padding 트릭   
-- strong, em 태그   
-- alt와 title의 작성   
-- aria-label과 a11y-hidden의 사용      
+- reset.css와 normalize.css 차이점    
+- 사용자 지정 css 속성 사용    
+- 색상 표기법 hsl(a), rgb(a)    
 
 #### [HTML/CSS 실습]    
 - [뉴스 컨텐츠 실습 (position으로 레이아웃 배치,figure이용하기, 마크업 변경후 float와 flex 이용해보기)](https://github.com/heejung-gjt/HTML5-CSS3/tree/master/%EC%9B%B9%EC%82%AC%EC%9D%B4%ED%8A%B8%20%EA%B5%AC%ED%98%84/%EC%83%88%EC%86%8C%EC%8B%9D%20%EB%A7%88%ED%81%AC%EC%97%85%20%EB%B0%8F%20%EB%94%94%EC%9E%90%EC%9D%B8)       
