@@ -20,14 +20,13 @@
 
 
  ### [0223](https://github.com/heejung-gjt/TIL/blob/master/html_css/0223-html%EC%A0%95%EB%A6%AC.md)
-- BFC      
+- BFC와 IFC        
 - 가상요소 선택자 (::after, ::before)   
-- flex 속성   
-- logo와 a링크 style 구현하기 (flex로 구현해보기,inline-block으로 구현해보기)         
-- display (inline, block, inline-block)    
-- aria-hidden의 역할    
-- position (absolute, relative)        
-- FLEXBOX FROGGY GAME 으로 flex 연습하기    
+- flex 속성    
+- flex 실습[flexbox froggy]     
+- flex 구현[logo와 안내링크]             
+- display (block,inline,inline-block)      
+- position 속성           
 <br>
 
  ### [0224](https://github.com/heejung-gjt/TIL/blob/master/html_css/0224-html%EC%A0%95%EB%A6%AC.md)
