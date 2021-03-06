@@ -52,11 +52,10 @@
 - css의 구체성(id, class, element의 우선순위)   
 - !important의 우선순위 제어       
 - 구조 선택자 (nth-child, nth-of-type)      
-- form 요소 (fieldset, legend, label 등의 역할)     
-- 암묵적인 아웃라인이란 ?   
-- css 설계시 user agent stylesheet (EX-margin default값) 주의     
-- text-indent 들여쓰기, 음수값으로 내어쓰기 속성   
-- background: url(./~) 와 background-image:url(./~) 차이 정확하게 구분하기   
+- form 요소 (fieldset, legend, label 등의 역할)       
+- css 설계시 user agent stylesheet (EX-margin default값)       
+- text-indent 속성     
+- background: url(./..) 와 background-image:url(./..)      
 
 #### [HTML/CSS 실습]    
 - 배경이미지 넣어 배너 레이아웃 설계해보기      
