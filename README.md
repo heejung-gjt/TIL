@@ -21,5 +21,5 @@
 - #### [Git](https://github.com/heejung-gjt/TIL/tree/master/git)
 <br>
 
-- ####[ETC-error](https://github.com/heejung-gjt/TIL/tree/master/ETC-error)
+- #### [ETC-error](https://github.com/heejung-gjt/TIL/tree/master/ETC-error)
 하루하루 삽질했던 모든 것들에 대한 기록 🌟
