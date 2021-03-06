@@ -93,7 +93,7 @@
 - strong,em 태그     
 - Image Sprite Pattern   
 - IR기법   
-- padding 트릭   
+- padding / indent 트릭    
 - reset.css와 normalize.css 차이점    
 - 사용자 지정 css 속성 사용    
 - 색상 표기법 hsl(a), rgb(a)    
@@ -106,21 +106,18 @@
 
 ### [0303](https://github.com/heejung-gjt/TIL/blob/master/HTML-CSS/0303-html%EC%A0%95%EB%A6%AC.md)   
 
-- :focus 줄 수 있는 태그 [tabindex="0"]
-- transition의 역할    
-- border-box와 content-box   
-- 속성값이 0일때 단위생략 가능할까 ?  
-- 웹접근성 focus와 outline    
-- box-shadow를 이용해서 outline 커스터마이징하기    
-- indent 트릭   
-- 가상요소 선택자 counter-increment   
-- left,top의 px과 %의 이동   
-- 인용부호 q, blockquote   
-- a링크의 역할 [웹주소, 이메일, 전화]    
-- 카피라이트 기호   
-- 벡터와 비트맵의 차이[해상도 차이]    
-- noopener, noreferer 속성    
-- Grid    
+- 인용부호 q, blockquote    
+- html 특수문자    
+- 벡터와 비트맵의 차이    
+- 가상클래스 : focus    
+- focus와 outline    
+- transition 속성    
+- border-box와 content-box    
+- css길이 단위
+- counter-reset, counter-increment
+- left,top의 px과 %의 이동(예정)           
+- noopener, noreferer 속성(예정)    
+- Grid(예정)    
 
 #### [HTML/CSS 실습]    
 - 관련사이트 컨텐츠 구현하기 (overflow:hidden과 hover 이용하기)    
