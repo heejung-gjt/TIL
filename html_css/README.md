@@ -30,20 +30,20 @@
 <br>
 
  ### [0224](https://github.com/heejung-gjt/TIL/blob/master/html_css/0224-html%EC%A0%95%EB%A6%AC.md)
-- role의 역할(a링크를 button처럼 쓸 수 있을까 ?)         
+- role의 역할            
+- 웹 표준을 위한 마크업 - 숨김콘텐츠    
+- 암묵적 outline과 명시적 outline     
 - box-shadow와 text-shadow          
 - white-space의 역할        
-- 애니메이션 @keyframes       
-- after과 before로 배경이미지 교차 편집하기       
-- 배경이미지와 태그이미지 (이미지 배치 순서)        
-- 웹 표준을 위한 마크업 - 숨김콘텐츠         
-- hover와 focus    
+- 애니메이션 @keyframes         
+- 배경이미지와 태그이미지 (이미지 배치 순서)   
+- hover와 focus          
 - padding,margin 부여되는 값 순서    
-- line-height    
-- 암묵적 outline과 명시적 outline    
+- line-height     
 - block속성으로 생기는 스크롤바      
 
 #### [HTML/CSS 실습]    
+- after과 before로 배경이미지 교차편집 구현해보기         
 - 메인메뉴 구현해보기(float, flex)        
 - 애니메이션으로 배경 구현해보기     
 <br>
