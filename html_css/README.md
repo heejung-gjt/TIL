@@ -109,16 +109,19 @@
 
 ### [0303]()   
 
-- :focus 줄 수 있는 태그   
+- :focus 줄 수 있는 태그 [tabindex="0"]
 - transition의 역할    
-- box-sizing과 content-box   
-- 속성값이 0일때 단위생략 가능할까 ?   
+- border-box와 content-box   
+- 속성값이 0일때 단위생략 가능할까 ?  
+- 웹접근성 focus와 outline    
 - box-shadow를 이용해서 outline 커스터마이징하기    
 - indent 트릭   
+- 가상요소 선택자 counter-increment   
 - left,top의 px과 %의 이동   
 - 인용부호 q, blockquote   
 - a링크의 역할 [웹주소, 이메일, 전화]    
-- 벡터와 비트맵의 차이    
+- 카피라이트 기호   
+- 벡터와 비트맵의 차이[해상도 차이]    
 - noopener, noreferer 속성    
 - Grid    
 
@@ -134,21 +137,21 @@
 - Open Graph와 Twitter Card   
 - RWD와 AWD        
 - RWD에서의 사이즈(em,rem,vw,vh)       
-- 속성값이 0일때 단위생략 가능할까 ?   
-- box-shadow를 이용해서 outline 커스터마이징하기    
-- indent 트릭   
-- left,top의 px과 %의 이동   
-- 인용부호 q, blockquote   
-- a링크의 역할 [웹주소, 이메일, 전화]    
-- 벡터와 비트맵의 차이    
-- noopener, noreferer 속성    
-- Grid    
+- RWD를 위한 미디어 쿼리     
+- img의 width: 100%, height: auto의 사용    
+- 레티나 대응    
+- container로 groupping 하는 이유는 ?    
+- RWD 설계시 reposive하게 주고 싶은 태그의 class에만 따로 네이밍    
+- 상태디자인    
+- backdrop-filter   
+- aria-passed    
+- 네이밍 관리 (BEM, SMACSS, OOCSS)    
+- calc함수   
+- div.classname과 div .classname의 차이점
+- 단축키    
 
 #### [HTML/CSS 실습]    
-- 관련사이트 컨텐츠 구현하기 (overflow:hidden과 hover 이용하기)    
-- 인기사이트 컨텐츠 구현하기(sprite 패턴 이용하기, 가상요소 선택자 이용해 순위 구현하기, ol 이용하기)    
-- 슬로건 구현하기(q태그 이용하기, IR기법 이용하기)   
-- grid로 footer 구현하기   
+- 이디야 음료페이지 반응형 구현하기(RWD설계)     
 <br>
 
 
