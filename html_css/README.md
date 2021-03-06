@@ -64,16 +64,15 @@
 - 웹관련 용어 박스 설계해보기    
 <br>
 
-### [0226]()
+### [0226](https://github.com/heejung-gjt/TIL/blob/master/html_css/0226-html%EC%A0%95%EB%A6%AC.md)
 - dl,dt,dd의 사용           
-- css >의 의미    
+- css ```>``` 의 의미    
 - text-align과 vertical align의 차이점     
 - margin과 padding의 auto     
-- 이미지 해상도 조절하지 않고 쓸 수 있는 SVG    
-- flex-grow:1이 쓰이는 곳은 ?     
-- text-overflow 역할 (라인 말줄임을 위한 3가지 속성)    
-- 요소선택자를 직접 건드리는 것보단 class 네이밍을 해서 스타일링 하는것을 선호     
-- flex 사용시 before와 after사용을 주의해야 하는 이유(해결방법은 nth-child)   
+- SVG        
+- flex-grow 속성         
+- text-overflow 역할      
+- flex 사용시 before와 after사용을 주의해야 하는 이유(해결방법은 nth-child)(예정)   
 
 #### [HTML/CSS 실습]    
 - 자료검색창 마크업해보기 (form요소 이용해서 구현)     
