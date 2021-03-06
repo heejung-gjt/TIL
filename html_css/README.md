@@ -10,7 +10,7 @@
 - HTML/CSS 코드 작성 규칙    
 - HTML/CSS 설계과정    
 - HTML 작성시 기호 사용해서 구현   
-- CSS 사이즈 단위 (px, em, rem, vh, vw)   
+- CSS 사이즈 단위      
 - SEO(검색엔진 최적화)   
 - 웹 접근성   
 - float 속성 정리    
@@ -21,11 +21,11 @@
 
  ### [0223](https://github.com/heejung-gjt/TIL/blob/master/html_css/0223-html%EC%A0%95%EB%A6%AC.md)
 - BFC와 IFC        
-- 가상요소 선택자 (::after, ::before)   
+- 가상요소 선택자       
 - flex 속성    
 - flex 실습[flexbox froggy]     
 - flex 구현[logo와 안내링크]             
-- display (block,inline,inline-block)      
+- display 속성        
 - position 속성           
 <br>
 
@@ -36,9 +36,9 @@
 - box-shadow와 text-shadow          
 - white-space의 역할        
 - 애니메이션 @keyframes         
-- 배경이미지와 태그이미지 (이미지 배치 순서)   
+- 배경이미지와 태그이미지     
 - hover와 focus          
-- padding,margin 부여되는 값 순서    
+- padding,margin 순서      
 - line-height     
 - block속성으로 생기는 스크롤바      
 
@@ -49,13 +49,13 @@
 <br>
 
 ### [0225](https://github.com/heejung-gjt/TIL/blob/master/html_css/0225-html%EC%A0%95%EB%A6%AC.md)
-- css의 구체성(id, class, element의 우선순위)   
+- css의 구체성     
 - !important의 우선순위 제어       
-- 구조 선택자 (nth-child, nth-of-type)      
-- form 요소 (fieldset, legend, label 등의 역할)       
-- css 설계시 user agent stylesheet (EX-margin default값)       
+- 구조 선택자    
+- form 요소          
+- css 설계시 user agent stylesheet       
 - text-indent 속성     
-- background: url(./..) 와 background-image:url(./..)      
+- background 와 background-image   
 
 #### [HTML/CSS 실습]    
 - 배경이미지 넣어 배너 레이아웃 설계해보기      
@@ -68,7 +68,7 @@
 - dl,dt,dd의 사용           
 - css >의 의미    
 - text-align과 vertical align의 차이점     
-- margin:auto는 가능, padding:auto는 불가능 (margin:auto의 역할)    
+- margin과 padding의 auto     
 - 이미지 해상도 조절하지 않고 쓸 수 있는 SVG    
 - flex-grow:1이 쓰이는 곳은 ?     
 - text-overflow 역할 (라인 말줄임을 위한 3가지 속성)    
