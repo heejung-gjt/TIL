@@ -1,5 +1,3 @@
-### (django git commit 하기)[https://github.com/heejung-gjt/Django-project]
-
 #### ⚡삽질 기록    
 commit하다가 django project 앱이 사라졌다,,,, 깃에 업로드 할려고 다음과 같은 순서로 했더니 사라졌다....    
 git init     
