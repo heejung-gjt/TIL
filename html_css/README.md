@@ -84,13 +84,13 @@
 <br>
 
 ### [0302](https://github.com/heejung-gjt/TIL/blob/master/html_css/0302-html%EC%A0%95%EB%A6%AC.md)
-
-- figure와 figcaption         
+     
 - aria-label과 aria-labelledby      
 - aria-hidden       
 - alt와 title    
+- figure와 figcaption    
+- img 마크업(예정)           
 - strong,em 태그     
-- img를 span이나 div안에 지정해 주는 이유는 ?     
 - Image Sprite Pattern   
 - IR기법   
 - padding 트릭   
