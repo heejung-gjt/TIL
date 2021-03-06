@@ -1,27 +1,28 @@
-### TIL🙌
+### TIL 
+(공부하면서 정리한 내용들입니다 🙌)
+
 <br>
 
-#### [Python]
-- [python을 공부하면서 정리한 내용들입니다](https://github.com/heejung-gjt/TIL/tree/master/Python)
+- #### [Python](https://github.com/heejung-gjt/TIL/tree/master/Python)
+
 <br>
 
-#### [HTML-CSS]
-- [HTML/CSS를 공부하면서 정리한 내용들입니다](https://github.com/heejung-gjt/TIL/tree/master/HTML-CSS)
+- #### [HTML-CSS](https://github.com/heejung-gjt/TIL/tree/master/HTML-CSS)
+
 <br>
 
-#### [Javascript]
-- [javascript를 공부하면서 정리한 내용들입니다](https://github.com/heejung-gjt/TIL/tree/master/javascript)
+- #### [Javascript](https://github.com/heejung-gjt/TIL/tree/master/javascript)
+
 <br>
 
-#### [Django]
-- [django를 공부하면서 정리한 내용들입니다]()
+- #### [Django](https://github.com/heejung-gjt/TIL/tree/master/Django)
 <br>
 
-#### [Linux]
-- [linux를 공부하면서 정리한 내용들입니다](https://github.com/heejung-gjt/TIL/tree/master/linux)
+- #### [Linux](https://github.com/heejung-gjt/TIL/tree/master/linux)
+
 <br>
 
-#### [Git]
-- [git을 공부하면서 정리한 내용들입니다](https://github.com/heejung-gjt/TIL/tree/master/git)
+- #### [Git](https://github.com/heejung-gjt/TIL/tree/master/git)
+
 <br>
 
