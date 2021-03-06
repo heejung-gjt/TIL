@@ -4,7 +4,7 @@
 
 <br>
 
-### [0222](https://github.com/heejung-gjt/TIL/blob/master/html_css/0222-html%EC%A0%95%EB%A6%AC.md)    
+### [0222](https://github.com/heejung-gjt/TIL/blob/master/HTML-CSS/0222-html%EC%A0%95%EB%A6%AC.md)    
 
 - DOCTYPE(DTD)    
 - HTML/CSS 코드 작성 규칙    
@@ -19,7 +19,7 @@
 <br>
 
 
- ### [0223](https://github.com/heejung-gjt/TIL/blob/master/html_css/0223-html%EC%A0%95%EB%A6%AC.md)
+ ### [0223](https://github.com/heejung-gjt/TIL/blob/master/HTML-CSS/0223-html%EC%A0%95%EB%A6%AC.md)
 - BFC와 IFC        
 - 가상요소 선택자       
 - flex 속성    
@@ -29,7 +29,7 @@
 - position 속성           
 <br>
 
- ### [0224](https://github.com/heejung-gjt/TIL/blob/master/html_css/0224-html%EC%A0%95%EB%A6%AC.md)
+ ### [0224](https://github.com/heejung-gjt/TIL/blob/master/HTML-CSS/0224-html%EC%A0%95%EB%A6%AC.md)
 - role의 역할            
 - 웹 표준을 위한 마크업 - 숨김콘텐츠    
 - 암묵적 outline과 명시적 outline     
@@ -48,7 +48,7 @@
 - 애니메이션으로 배경 구현해보기     
 <br>
 
-### [0225](https://github.com/heejung-gjt/TIL/blob/master/html_css/0225-html%EC%A0%95%EB%A6%AC.md)
+### [0225](https://github.com/heejung-gjt/TIL/blob/master/HTML-CSS/0225-html%EC%A0%95%EB%A6%AC.md)
 - css의 구체성     
 - !important의 우선순위 제어       
 - 구조 선택자    
@@ -64,7 +64,7 @@
 - 웹관련 용어 박스 설계해보기    
 <br>
 
-### [0226](https://github.com/heejung-gjt/TIL/blob/master/html_css/0226-html%EC%A0%95%EB%A6%AC.md)
+### [0226](https://github.com/heejung-gjt/TIL/blob/master/HTML-CSS/0226-html%EC%A0%95%EB%A6%AC.md)
 - dl,dt,dd의 사용           
 - css ```>``` 의 의미    
 - text-align과 vertical align의 차이점     
@@ -83,7 +83,7 @@
 
 <br>
 
-### [0302](https://github.com/heejung-gjt/TIL/blob/master/html_css/0302-html%EC%A0%95%EB%A6%AC.md)
+### [0302](https://github.com/heejung-gjt/TIL/blob/master/HTML-CSS/0302-html%EC%A0%95%EB%A6%AC.md)
      
 - aria-label과 aria-labelledby      
 - aria-hidden       
@@ -104,7 +104,7 @@
 
 <br>
 
-### [0303]()   
+### [0303](https://github.com/heejung-gjt/TIL/blob/master/HTML-CSS/0303-html%EC%A0%95%EB%A6%AC.md)   
 
 - :focus 줄 수 있는 태그 [tabindex="0"]
 - transition의 역할    
