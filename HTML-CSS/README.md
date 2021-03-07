@@ -130,19 +130,17 @@
 
 - Open Graph와 Twitter Card   
 - RWD와 AWD        
-- RWD에서의 사이즈(em,rem,vw,vh)       
-- RWD를 위한 미디어 쿼리     
-- img의 width: 100%, height: auto의 사용    
-- 레티나 대응    
-- container로 groupping 하는 이유는 ?    
-- RWD 설계시 reposive하게 주고 싶은 태그의 class에만 따로 네이밍    
-- 상태디자인    
-- backdrop-filter   
-- aria-passed    
-- 네이밍 관리 (BEM, SMACSS, OOCSS)    
-- calc함수   
-- div.classname과 div .classname의 차이점
-- 단축키    
+- RWD를 위한 폰트 단위       
+- 미디어쿼리(Media Query)     
+- RWD에서의 이미지 스타일링       
+- 레티나 대응(예정중)    
+- backdrop-filter  
+- calc() 함수  
+- div.name과 div .name    
+- SMACSS, BEM, OOCSS   
+- RWD 설계시 reposive하게 주고 싶은 태그의 class에만 따로 네이밍 (예정중)      
+- 상태디자인(예정중)        
+- aria-passed(예정중)       
 
 #### [HTML/CSS 실습]    
 - 이디야 음료페이지 반응형 구현하기(RWD설계)     
