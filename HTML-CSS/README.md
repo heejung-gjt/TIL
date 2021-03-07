@@ -126,7 +126,7 @@
 - grid로 footer 구현하기   
 <br>
 
-### [0304]()   
+### [0304](https://github.com/heejung-gjt/TIL/blob/master/HTML-CSS/0305-html%20%EC%A0%95%EB%A6%AC.md)   
 
 - Open Graph와 Twitter Card   
 - RWD와 AWD        
