@@ -1,3 +1,7 @@
+## JavaScript를 공부하면서 정리한 내용들입니다   
+
+<br>
+
 ### [day01]()
 - ECMAScript   
 - 변수        
