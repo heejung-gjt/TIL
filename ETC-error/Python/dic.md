@@ -1,4 +1,4 @@
-### 딕셔너리 value값으로 key값 구하기 
+## 딕셔너리 value값으로 key값 구하기 
 
 #### ⚡삽질 기록    
 
@@ -69,4 +69,32 @@ for text in texts:
 ```
 <br>
 
-오늘의 삽질 아닌 삽질 끝 ❗
+## 딕셔너리 key와 value를 이용한 정렬 
+딕셔너리는 list와 마찬가지로 sorted함수를 이용해 정렬한다.   
+
+__1.key를 이용한 정렬__     
+sorted와 items()를 이용하여 정렬하게 되면 key를 기준으로 정렬이 되어진다   
+```python
+dict = {'c': 1, 'd':8, 'a':4 , 'b':2}
+sort_dict = sorted(dict.items())
+
+# [('a', 4), ('b', 2), ('c', 1), ('d', 8)]
+```
+내림차순 정렬은 ```sort_dict = sorted(dict.items(), reverse=True)``` reverse=True를 넣어주면 된다
+<br>
+
+__2.value를 이용한 정렬__   
+sorted와 operator를 이용하여 정렬하게 되면 value를 기준으로 정렬이 되어진다   
+
+```operator```   
+operator.itemgetter()에서 0이나1을 넘기는거에 따라서 key로 정렬할것인지 value로 정렬할 것인지 정할 수 있다. 0을 주면 key로 정렬하게 되고 1을 주면 value로 정렬하게 된다. 
+```python
+import operator
+
+
+dict = {'c': 1, 'd':8, 'a':4 , 'b':2}
+sort_dict = sorted(dict.items(), key=operator.itemgetter(1))
+
+# [('c', 1), ('b', 2), ('a', 4), ('d', 8)]
+```
+
