@@ -24,26 +24,25 @@
 
 <br>
 
-### [day02](https://github.com/heejung-gjt/TIL/blob/master/javascript/day01.md)
+### [day02](https://github.com/heejung-gjt/TIL/blob/master/javascript/day02.md)
+- 할당과 재할당    
 - 메모리 관리   
   - 바인딩    
   - allocate
-  - use
   - release      
-- 원시값과 원시타입    
-- 객체   
+- 원시타입과 참조타입       
+- 네이밍 컨벤션       
 - 표현식   
-  - 표현식과 값의 관계
-  - 표현식과 식별자의 관계          
-  - 표현식의 구분             
-- 토큰      
-- 템플릿 리터럴         
-- typeof       
+  - 값    
+  - 리터럴              
+  - 표현식   
+  - 문
+  - 토큰 
+  - 표현식인 문과 아닌문                 
+- 템플릿 리터럴                
 - 연산자        
-- 제어문     
-- 블록문    
-- 단축평가       
-- 콜백함수        
+- 제어문            
+- 콜백함수(예정)        
 - [예습]
   - 타입 변환과 단축 평가   
   - 객체 리터럴   
