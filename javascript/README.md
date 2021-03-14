@@ -47,7 +47,7 @@
   - 타입 변환과 단축 평가   
   - 객체 리터럴   
   - 원시값과 객체의 비교   
-- [문제풀이]()
+- [문제풀이](https://github.com/heejung-gjt/TIL/tree/master/javascript/day2-exercise)
   - 제어문 문제풀이
 
 <br>

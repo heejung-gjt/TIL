@@ -16,31 +16,20 @@ if (x >10 && x < 20) {
 
 
 ```Javascript
-for(var i=0; i<10; i+=2){
+for(var i=0 ; i<10 ; i+=2){
     console.log(i)
 }
 ```
 
 <br>
 
-#### 2. for문을 사용하여 0부터 10미만의 정수 중에서 짝수만을 작은 수부터 출력하시오.    
-
-
-```Javascript
-for(var i=0; i<10; i+=2){
-    console.log(i)
-}
-```
-
-<br>
-
-#### 3. for문을 사용하여 0부터 10미만의 정수 중에서 짝수만을 작은 수부터 문자열로 출력하시오.  
+#### 3.  for문을 사용하여 0부터 10미만의 정수 중에서 짝수만을 작은 수부터 문자열로 출력하시오. 
 
 
 ```Javascript
 var words='';
 
-for(var i=0; i<10; i+=2){
+for(var i=0 ; i<10 ; i+=2){
    words += i;
 }
 console.log(words);
@@ -52,7 +41,7 @@ console.log(words);
 
 
 ```Javascript
-for(var i=9; i>0; i-=2){
+for(var i=9 ; i>0 ; i-=2){
     console.log(i)
 }
 ```
@@ -81,7 +70,7 @@ var i = 9;
 
 while(i > 0){
     console.log(i);
-    i-=2;
+    i -= 2;
 
 }
 ```
@@ -93,7 +82,7 @@ while(i > 0){
 ```Javascript
 var sum=0;
 
-for(var i=0; i<10; i++){
+for(var i=0 ; i<10 ; i++){
     sum+=i;
 }
 console.log(sum)
@@ -106,7 +95,7 @@ console.log(sum)
 ```Javascript
 var sum = 0;
 
-for(var i=1; i<20; i++){
+for(var i=1 ; i<20 ; i++){
     if(i%2!=0 && i%3!=0){
         sum += i;
     }
@@ -121,7 +110,7 @@ console.log(sum);
 ```Javascript
 var sum = 0;
 
-for(var i=1; i<20; i++){
+for(var i=1 ; i<20 ; i++){
     if(i%2==0 || i%3==0){
         sum+=i;
     }
@@ -134,9 +123,9 @@ console.log(sum);
 #### 10. 두 개의 주사위를 던졌을 때, 눈의 합이 6이 되는 모든 경우의 수를 출력하시오.
 
 ```Javascript
-for(var i=1; i<6; i++){
-    for(var j=1; j<6; j++){
-        if(i+j==6){
+for(var i=1 ; i<6 ; i++){
+    for(var j=1 ; j<6 ; j++){
+        if(i+j == 6){
             console.log(`[ ${i}, ${j} ]`);
         }
     }
@@ -164,8 +153,8 @@ for(var i=1; i<=line; i++){
 var line = 5;
 var star = '';
 
-for(var i=1; i<=line; i++){
-    for(var j=1;j<=i; j++){
+for(var i=1 ; i<=line ; i++){
+    for(var j=1 ; j<=i ; j++){
         star+= '*';
     }
     star+='\n';
@@ -180,29 +169,30 @@ console.log(star);
 ```내풀이```    
 ```Javascript
 var line = 5;
-for(var i=0; i<=line; i++){
+
+for(var i=0 ; i<=line ; i++){
     var star = '';
     var empty = '';
-    for(var j=5-i;j>0; j--){
+    for(var j=5-i ; j>0 ; j--){
         star+= '*';
     }
     empty+=' '.repeat(i);
     console.log(empty+star);
 }
 ```
-```11번 참고한 풀이```
+```11번 참고한 내풀이```
 ```Javascript
 var line = 5;
 var star = '';
 
-for(var i = line ; i >= 1; i--){
-    for(var j= 1 ; j <= i ; j++){
-        star+= '*';
+for(var i=line ; i>=1; i--){
+    for(var j=1 ; j<=i ; j++){
+        star += '*';
     }
     star += '\n';
 
-    for(var k = line-i; k>=0; k--){
-        star+=' ';
+    for(var k=line-i ; k>=0 ; k--){
+        star += ' ';
     }
 }
 console.log(star);
@@ -215,24 +205,25 @@ console.log(star);
 ```내풀이```
 ```Javascript
 var line = 5;
-for(var i=0; i<=line; i++){
+
+for(var i=0 ; i<=line ; i++){
     var star = '';
     var empty = '';
-    for(var j=5-i;j>0; j--){
+    for(var j=5-i ; j>0 ; j--){
         star+= '*';
     }
     empty+=' '.repeat(i);
     console.log(star+empty);
 }
 ```
-```11번 참고한 풀이```
+```11번 참고한 내풀이```
 ```Javascript
 var line = 5;
 var star = '';
 
-for(var i = line ; i >= 1; i--){
-    for(var j= 1 ; j <= i ; j++){
-        star+= '*';
+for(var i=line ; i>=1 ; i--){
+    for(var j=1 ; j<=i ; j++){
+        star += '*';
     }
     star += '\n';
 }
@@ -247,29 +238,29 @@ console.log(star);
 ```Javascript
 var line = 5;
 
-for(var i=1; i<=line; i++){
+for(var i=1 ; i<=line ; i++){
     var star = '';
-    var empty ='';
-    for(var j=0;j<i; j++){
-        star+= '*';
+    var empty = '';
+    for(var j=0 ; j<i ; j++){
+        star += '*';
     }
-    empty +=' '.repeat(line-i)
+    empty += ' '.repeat(line-i)
     console.log(empty+star);
 }
 ```
-```11번 참고한 풀이```
+```11번 참고한 내풀이```
 ```Javascript
 var line = 5;
 var star = '';
 
-for(var i = 1; i<=line; i++){
-    for(var j = line-i; j>0; j--){
-        star+=' ';
+for(var i = 1 ; i<=line ; i++){
+    for(var j = line-i ; j>0 ; j--){
+        star += ' ';
+    } 
+    for(var k = 1 ; k<=i ; k++){
+        star += '*';
     }
-    for(var k = 1; k<=i; k++){
-        star+='*';
-    }
-    star+='\n';
+    star += '\n';
 }
 console.log(star);
 ```
@@ -280,29 +271,29 @@ console.log(star);
 
 ```내풀이```
 ```Javascript
-for(var i=0; i<5; i++){
+for(var i=0 ; i<5 ; i++){
     var empty='';
-    for(var j=(i*2)+1;j<=i*2+1; j++){
+    for(var j=(i*2)+1 ; j<=i*2+1 ; j++){
         var star = '';
-        star+= '*'.repeat(j)
+        star += '*'.repeat(j)
     }
-    empty=' '.repeat(5-(i+1))
+    empty = ' '.repeat(5-(i+1))
     console.log(empty+star);
 }
 ```
-```11번 참고한 풀이```
+```11번 참고한 내풀이```
 ```Javascript
 var line = 5;
 var star='';
 
-for(var i=1; i<=line ; i++){
+for(var i=1 ; i<=line ; i++){
     for(var j=line-i ; j>0 ; j--){
         star+=' ';
     }
     for(var k=(i*2)-1 ; k>0 ; k--){
         star+='*';
     }
-    for(var z=line-i ; z>0;z--){
+    for(var z=line-i ; z>0 ; z--){
     star+=' ';
     }
     star+='\n';
@@ -316,29 +307,29 @@ console.log(star)
 
 ```내풀이```
 ```Javascript
-for(var i=5; i>0; i--){
+for(var i=5 ; i>0 ; i--){
     var empty='';
-    for(var j=(i*2)-1;j>=i*2-1; j--){
+    for(var j=(i*2)-1 ; j>=i*2-1 ; j--){
         var star = '';
-        star+= '*'.repeat(j)
+        star += '*'.repeat(j)
     }
     empty=' '.repeat(5-i)
     console.log(empty+star);
 }
 ```
-```11번 참고한 풀이```
+```11번 참고한 내풀이```
 ```Javascript
 var line = 5;
 var star='';
 
-for(var i=line; i>=0; i--){
+for(var i=line ; i>=0 ; i--){
     for(var j=line-i ; j>0 ; j--){
         star+=' ';
     }
     for(var k=(i*2)-1 ; k>0 ; k--){
         star+='*';
     }
-    for(var z=line-i ; z>0;z--){
+    for(var z=line-i ; z>0 ; z--){
     star+=' ';
     }
     star+='\n';
