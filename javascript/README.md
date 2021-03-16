@@ -78,7 +78,7 @@
 
 <br>
 
-### [day04]()
+### [day04](https://github.com/heejung-gjt/TIL/blob/master/javascript/day4.md)
 
 - 함수
   - 함수정의 
@@ -98,13 +98,9 @@
   - 고차함수   
 - 순수함수와 비순수함수
 - 스코프
-  - 전역코드
-  - 함수코드
   - 스코프 체인 과정
-  - 함수레벨 스코프
+  - 블록/함수레벨 스코프
   - 렉시컬 스코프
-  - 전역변수
-- let과 const
-  - var의 단점
-  - let,const 장점
+  - 전역/지역변수
+- var, let, const
 - 변수와 상수
