@@ -11,10 +11,10 @@
 var line = 5;
 var star = '';
 
-for(var i=1; i<=line; i++){
-    for(var j=1;j<=i; j++){
-        star+= '*';
+for(var i = 1; i <= line; i++){
+    for(var j = 1;j <= i; j++){
+        star += '*';
     }
-    star+='\n';
+    star += '\n';
 }
 console.log(star);

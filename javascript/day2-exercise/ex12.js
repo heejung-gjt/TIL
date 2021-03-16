@@ -13,12 +13,12 @@ var line = 5;
 var star = '';
 
 for(var i = line ; i >= 1; i--){
-    for(var j= 1 ; j <= i ; j++){
-        star+= '*';
+    for(var j = 1 ; j <= i ; j++){
+        star += '*';
     }
     star += '\n';
-    for(var k = line-i; k>=0; k--){
-        star+=' ';
+    for(var k = line-i; k >= 0; k--){
+        star += ' ';
     }
 }
 console.log(star);

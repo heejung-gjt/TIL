@@ -9,18 +9,18 @@
 // }
 
 var line = 5;
-var star='';
+var star = '';
 
-for(var i=line; i>=0; i--){
-    for(var j=line-i ; j>0 ; j--){
-        star+=' ';
+for(var i = line; i >= 0; i--){
+    for(var j = line-i; j > 0; j--){
+        star += ' ';
     }
-    for(var k=(i*2)-1 ; k>0 ; k--){
-        star+='*';
+    for(var k = (i*2)-1; k > 0; k--){
+        star += '*';
     }
-    for(var z=line-i ; z>0;z--){
-    star+=' ';
+    for(var z = line-i; z > 0; z--){
+    star += ' ';
     }
-    star+='\n';
+    star += '\n';
 }
 console.log(star)

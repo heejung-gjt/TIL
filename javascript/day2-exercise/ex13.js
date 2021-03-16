@@ -13,8 +13,8 @@ var line = 5;
 var star = '';
 
 for(var i = line ; i >= 1; i--){
-    for(var j= 1 ; j <= i ; j++){
-        star+= '*';
+    for(var j = 1 ; j <= i ; j++){
+        star += '*';
     }
     star += '\n';
 }
