@@ -104,3 +104,28 @@
   - 전역/지역변수
 - var, let, const
 - 변수와 상수
+
+<br>
+
+### [day05](https://github.com/heejung-gjt/TIL/blob/master/javascript/day5.md)   
+- 함수 호출
+  - 일반적인 함수로서 호출
+  - 생성장 함수로서 호출
+  - 메서드로서 호출
+- 메서드   
+- 화살표 함수   
+- rest 파라미터    
+- 매개변수 기본값   
+- 배열         
+- 자료구조 배열과 js배열   
+- 배열리터럴           
+- 희소배열   
+- 배열추가,삭제,갱신   
+- 배열 메서드   
+  - mutator 메서드
+  - accessor 메서드
+- 스프레드 문법    
+- 얕은/깊은복사   
+- 프로토타입 체인
+- Array.isArray
+- 리터럴로 생성
