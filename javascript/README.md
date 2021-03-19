@@ -129,3 +129,22 @@
 - 프로토타입 체인
 - Array.isArray
 - 리터럴로 생성
+
+<br>
+
+### [day06](https://github.com/heejung-gjt/TIL/blob/master/javascript/day6.md)
+- 배열 메서드
+  - join
+  - split
+  - reverse
+  - fill
+  - includes
+  - flat
+- 배열 고차함수
+  - sort
+  - forEach
+  - map
+  - filter
+  - reduce
+- 복사방법2가지(slice, ...)
+- 함수 3가지 호출방법 (생성자 함수는 생성자 인스턴스를 가리킴, 메서드는 메서드 객체를 가리킴)
