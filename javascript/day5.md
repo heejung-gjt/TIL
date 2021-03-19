@@ -422,7 +422,7 @@ console.log(infor[0]===copyInfor[0]); //true
 
 #### 👉 prototype 체인
 
-생성자 함수로서 Person을 호출하여 런타임중에 me라는 인스턴스를 생성하게 되면 메모리상에 인스턴스가 생성된다. 이때 Person객체는 런타임전에 만들어진다. Person이 만들어질때 prototype도 함께 생성되어지고 인스턴스가 상속받는 상위객체가 된다. 
+생성자 함수로서 Person을 호출하여 런타임중에 me라는 인스턴스를 생성하게 되면 메모리상에 인스턴스가 생성된다. 이때 Person생성자함수는 런타임전에 만들어진다. Person이 만들어질때 Person에 대한 prototype도 함께 생성되어지고 해당 prototype은 인스턴스가 상속받는 상위객체가 된다. 
 ```javascript
 function Person(name){
   this.name = name;
@@ -432,29 +432,31 @@ function Person(name){
 }
 const me = new Person('hee');
 
-console.log(me);
+console.log(me);  //Person { name: 'hee', sayHi: [Function] }
+me.sayHi();  //hi
 ```
 ![js](https://user-images.githubusercontent.com/64240637/111582163-ca926700-87fd-11eb-8148-fd996a9d4480.png)
 
-이때 sayHi라는 함수는 항상 똑같은 동작을 하는 기능이다. 하지만 인스턴스를 생성할때마다 반복해서 sayHi라는 함수가 생성되어 메모리가 낭비된다. 이때 인스턴스가 상속을 받을 수 있는 상위객체인 prototype에 sayHi라는 함수를 한번 생성하면 필요할때마다 상속받으면 되므로 메모리의 낭비를 막을 수 있다
+이때 sayHi라는 함수는 항상 똑같은 동작을 하는 기능이다. 하지만 인스턴스를 생성할때마다 반복해서 sayHi라는 함수가 생성되어 메모리가 낭비된다. 이때 인스턴스가 상속을 받을 수 있는 상위객체인 prototype에 sayHi라는 함수를 한번 생성하면 필요할때마다 상속 받으면 되므로 메모리의 낭비를 막을 수 있다
 
 ```javascript
 function Person(name){
-  this.name = name;
-}
-Person.prototype.sayhi = function(){
-  console.log('hi');
-}
-
-const me = new Person('hee');
-console.log(me);
+    this.name = name;
+  }
+  Person.prototype.sayHi = function(){
+    console.log('hi');
+  }
+  
+  const me = new Person('hee');
+  console.log(me); //Person { name: 'hee' }
+  me.sayHi(); // hi
 ```
 ![js](https://user-images.githubusercontent.com/64240637/111583445-cb2bfd00-87ff-11eb-863d-8d7ecab27f27.png)
 
 <br>
 
 #### 프로토타입 체인의 역할
-배열을 생성하면 런타임전에 배열객체가 생성되고 배열에 프로토타입이 생성된다. 메모리상에 arr과 값이 저장되는데 push는 배열의 프로퍼티이다. 콘솔 평가 결과를 알기위해 스코프 체인상에서 arr을 찾은후 프로토타입 체인에서 push를 찾아 동작한다. 이때 스코프 체인상에서 먼저 push를 찾은후 프로토타입 체인과정으로 올라간다
+배열을 생성하면 런타임전에 배열아 생성되고 배열의 프로토타입이 생성된다. 메모리상에 arr에 대한 객체값 [0]이 저장되는데 push는 배열의 프로퍼티이다. 콘솔 평가 결과를 알기위해 스코프 체인상에서 arr을 찾은 후 프로토타입 체인에서 push를 찾아 동작한다. 이때 스코프 체인상에서 먼저 push를 찾은후 프로토타입 체인과정으로 올라간다
 ```javascript
 const arr = [0];
 arr.push(1);
