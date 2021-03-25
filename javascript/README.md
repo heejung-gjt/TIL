@@ -148,3 +148,25 @@
   - reduce
 - 복사방법   
 - 함수 내 this 출력
+
+<br>
+
+### [day07](https://github.com/heejung-gjt/TIL/blob/master/javascript/day7.md)
+- 파싱   
+- 렌더링    
+- 브라우저   
+- 렌더링 과정   
+- DOM   
+- 노드탐색   
+  - 자식 노드 탐색   
+  - 부모 노드 탐색   
+  - 형제 노드 탐색   
+- 요소 노드의 텍스트 조작   
+  - textContent   
+- DOM 조작   
+  - innerHTML   
+  - 복수의 노드 생성과 추가   
+- 스타일   
+- 클래스 조작   
+- 이벤트 핸들러   
+- [DOMContentLoaded(실습)]()   
