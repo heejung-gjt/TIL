@@ -169,4 +169,4 @@
 - 스타일   
 - 클래스 조작   
 - 이벤트 핸들러   
-- [DOMContentLoaded(실습)]()   
+- [DOMContentLoaded(실습)](https://github.com/heejung-gjt/TIL/tree/master/javascript/day7-exercise)   
