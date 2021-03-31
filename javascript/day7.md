@@ -4,15 +4,15 @@
  <br>
 
  #### 👉 렌더링 (rendering)
- 렌더링은 html,css,js로 작성된 문서를 파싱하여 브라우저에 시각적으로 출력하는 것을 말한다.    
+ 렌더링은 html,css,js로 작성된 문서를 파싱하여 브라우저에 시각적으로 출력하는 것을 말한다.   
+
  ```렌더링 엔진```    
  렌더링 엔진은 요청받은 내용을 브라우저 화면에 표시해주는 역할을 한다. 이때 각 브라우저마다 가지고 있는 렌더링 엔진이 달라 모든 브라우저 화면에 동일하게 그려지지 않고 엔진마다 읽을 수 있는 코드의 버전도 다르기 때문에 __크로스브라우징__ 이슈가 발생하기도 한다.  
 
- ```대표적 브라우저```   
+ ```대표적 브라우저 엔진```   
  - 크롬 : 웹킷사용하다 fork하여 블링크 엔진 자체적으로 구현해 사용   
  - 사파리 : 웹킷   
- - 파이어폭스 : 게코   
-
+ - 파이어폭스 : 게코     
 
  <br>  
 
@@ -23,18 +23,30 @@
  - 서버에 리소스를 요청한다(request)   
  - 요청 받은 리소스를 가지고 화면을 보여준다(reponse)      
 
-```브라우저 구성요소```   
-(진행중..)
-
-<br>
 
  #### 👉 렌더링 과정
  
  - 클라이언트가 주소창에 주소를 입력   
- - DNS의 역할로 인해 해당 ip주소를 알아낸뒤 이와 연결된 서버로 이동   
- - 서버에서 HTML파일을 클라이언트로 랜선을 통해 전송    
- - 브라우저가 이해할 수 있게 HTML 파일을 파싱하여 DOM Tree를 생성    
- (진행중..)  
+
+- 필요한 리소스(이미지, 폰트 등)를 서버에 요청하기 위해 먼저 DNS로 해당 ip주소를 알아낸뒤 이와 연결된 서버로 이동       
+
+- 서버에서 디폴트(index.html) HTML파일을 클라이언트로 랜선을 통해 전송     
+
+- 브라우저가 받은 HTML파일을 파싱하여 DOM 트리를 생성   
+
+- HTML 파싱과정에서 <link> 태그를 만나면 css에 요청하여 css 파싱하여 
+CSSOM 트리를 생성    
+
+- 생성한 DOM과 CSSOM을 결합한 render TREE 생성하여 layout을 그린다   
+
+- 이때 <script> 태그를 만나면 자바스크립트를 파싱하여 AST(Abstract Syntax Tree)를 생성하여 바이트 코드로 변환하여 실행한다. 이때 자바스크립트는 DOM API를 통해 DOM이나 CSSOM을 변경할 수 있다. 변경된 DOM과 CSSOM은 다시 Render 트리로 결합한다   
+
+- Render 트리를 기반으로 레이아웃을 계산하여 브라우저 화면에 페인팅한다   
+
+<br>
+
+#### 👉 리플로우와 리페인트
+(진행중)...
 
 <br>
 
@@ -142,10 +154,12 @@ nodeValue는 텍스트노드가 아닌 노드 , 즉 문서 노드나 요소 노�
 <script>
     const apple = document.querySelector('.apple');
     const appleTextNode = apple.firstChild; 
-    console.log(apple.nodeVallue); // 요소노드의 nodeValue 프로퍼티를 참조 null
+    console.log(apple.nodeValue); // 요소노드의 nodeValue 프로퍼티를 참조 null
     console.log(appleTextNode.nodeValue); //텍스트노드의 nodeValue프로퍼티를 참조 apple
     appleTextNode.nodeValue='i dont like apple';
     console.log(appleTextNode.nodeValue); // i dont like apple로 변경
+    apple.value='';
+    console.log(apple.appleTextNode)
 </script>
 ```
 

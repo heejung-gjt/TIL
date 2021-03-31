@@ -156,6 +156,7 @@
 - 렌더링    
 - 브라우저   
 - 렌더링 과정   
+- 리플로우 리페인트   
 - DOM   
 - 노드탐색   
   - 자식 노드 탐색   
@@ -170,3 +171,13 @@
 - 클래스 조작   
 - 이벤트 핸들러   
 - [DOMContentLoaded(실습)](https://github.com/heejung-gjt/TIL/tree/master/javascript/day7-exercise)   
+
+<br>
+
+### [day08](https://github.com/heejung-gjt/TIL/blob/master/javascript/day8.md)
+
+- 이벤트 위임                                                
+- DOM이란
+- 어트리뷰트
+- HTML 컬렉션이란
+- 
