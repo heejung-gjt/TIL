@@ -2,4 +2,14 @@
 
 <br>
 
-- [시간복잡도와 공간복잡도](https://github.com/heejung-gjt/TIL/blob/master/Algorithm/Complexity.md)
+- [시간복잡도와 공간복잡도](https://github.com/heejung-gjt/TIL/blob/master/Algorithm/Complexity.md)  
+
+- [AbstractData Type]()    
+
+- [Array](https://github.com/heejung-gjt/TIL/blob/master/Algorithm/Array.md)      
+
+- [LinkedLists](https://github.com/heejung-gjt/TIL/blob/master/Algorithm/linkedlist.md)   
+
+- [Stacks](https://github.com/heejung-gjt/TIL/blob/master/Algorithm/stack.md)    
+
+  
