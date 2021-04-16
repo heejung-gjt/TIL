@@ -69,7 +69,7 @@
   - 주어진 인덱스에 새로운 요소를 삽입하는 연산자
   - 주어진 인덱스에 해당하는 요소를 제거하는 연산자
 
-  - [실습보러가기]()   
+- [실습보러가기](https://github.com/heejung-gjt/TIL/blob/master/Algorithm/Array_practice/array.py)   
 
   <br>
 
