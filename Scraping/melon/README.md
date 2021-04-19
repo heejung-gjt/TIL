@@ -1,6 +1,19 @@
 ## 멜론 100차트 순위 2021 01 ~ 스크래핑 후 csv 저장하기   
 
-### 주의할점 
+
+## 구현
+
+- [api 스크래핑 이용해 01-03월 스크래핑](https://github.com/heejung-gjt/TIL/blob/master/Scraping/melon/csv01.py)   
+
+- [json파일 생성후 csv파일로 변환](https://github.com/heejung-gjt/TIL/blob/master/Scraping/melon/csv02.py)    
+
+- [DictWriter을 이용해 csv파일로 변환, 함수로 작성](https://github.com/heejung-gjt/TIL/blob/master/Scraping/melon/csv03.py)
+
+## 연습 
+
+- [csv파일 변환 연습](https://github.com/heejung-gjt/TIL/blob/master/Scraping/melon/csv_practice.py)
+ 
+## 주의할점 
 - 멜론은 html을 기준으로 스크래핑을 하기 위해선 import requests가 아닌 import urllib.request를 이용해야 한다    
 
 Q. 왜 urllib.request인가? requests와 차이점은 무엇인가?    
@@ -15,15 +28,3 @@ Q. 왜 urllib.request인가? requests와 차이점은 무엇인가?
 - If-Range header fields    
 
 -> 대부분의 브라우저는 HTTP conditional request를 사용하여 자동 캐시 기능을 지원한다    
-
-## 구현
-
-- ### [api 스크래핑 이용해 01-03월 스크래핑]()   
-
-- ### [json파일 생성후 csv파일로 변환]()    
-
-- ### [DictWriter을 이용해 csv파일로 변환, 함수로 작성]()
-
-## 연습 
-
-- ### [csv파일 변환 연습]()
