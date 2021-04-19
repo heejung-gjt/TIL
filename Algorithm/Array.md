@@ -71,7 +71,24 @@
 
 - [실습보러가기](https://github.com/heejung-gjt/TIL/blob/master/Algorithm/Array_practice/array.py)   
 
-  <br>
+## 배열 리스트 구현 메서드 시간복잡도
+배열을 기반으로 만들어지는 리스트이다. 가변길이를 가지는 배열을 이용해서 리스트를 구현한다    
+
+- is_empty() : capacity의 길이가 0 인지만 판단하면 되므로 O(1)에 해당한다    
+
+- prepend() : 원하는 value값을 리스트의 맨 앞에 삽입해주면 되므로 마찬가지로 O(1)에 해당한다   
+
+- append() : O(1)   
+
+- set_head() : O(1)    
+
+- access() : O(n)    
+
+- insert() : O(1)   
+
+- remove() : O(1)    
+
+<br>
 
 ## 선형탐색(순차탐색)
 순서대로 비교하면서 찾는다
