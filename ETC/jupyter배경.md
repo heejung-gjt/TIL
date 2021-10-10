@@ -10,7 +10,8 @@ $ jt -t onedork # 배경색 설정
 이때 발생한 문제는 이전에 venv안에서 설치했던 jupyter notebook이 실행되서 실제 내가 필요한 디렉토리의 파일들을 볼 수 없었다
 
 ### 해결방법
-jupyter의 설정 파일을 생성하여 기본 디렉토리를 설정해주었다
+jupyter의 설정 파일을 생성하여 기본 디렉토리를 설정해주었다. 이때 venv로 가상환경을 구축하여 pip install jupyter notebook을 한 후 jupyter notebook에 접속해야 접속된다
+
 ```python
 $ jupyter-notebook --generate-config # 주피터 노트북 설정 파일 생성
 $ ipython # 암호화된 비밀번호 생성하기 위해 ipython실행
