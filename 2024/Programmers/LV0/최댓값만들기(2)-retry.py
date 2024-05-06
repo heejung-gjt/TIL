@@ -4,7 +4,7 @@ def solution(numbers):
         for j in range(i + 1, len(numbers)):
             if answer is None:
                 answer = numbers[i] * numbers[j]
-                
+
             elif answer < numbers[i] * numbers[j]:
                 answer = numbers[i] * numbers[j]
     return answer
