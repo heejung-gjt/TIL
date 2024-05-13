@@ -18,7 +18,6 @@ def solution(numbers, direction):
 
 
 from collections import deque
-
 def solution(numbers, direction):
     queue = deque(numbers)
     if direction == 'right':
